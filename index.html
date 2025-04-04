@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitOver35</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background: #fff;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+    header h1 {
+      font-size: 1.2rem;
+      color: #444;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      color: white;
+      position: relative;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .hero h2,
+    .hero p,
+    .hero a {
+      position: relative;
+      z-index: 1;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background: #e67e22;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    section p {
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .feature-item {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 12px;
+    }
+    footer {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    @media (min-width: 768px) {
+      .features {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .feature-item {
+        width: 30%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FitOver35</h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Success Stories</a>
+      <a href="#">Philosophy</a>
+      <a href="#">Join Now</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>This Is What 40 Looks Like</h2>
+    <p>You don't have to change everything — just give your body what it's really been asking for.</p>
+    <a href="#" class="cta-button">See How You Can Get This Body</a>
+  </section>
+
+  <section>
+    <h3>Confidence Comes With Care</h3>
+    <div class="features">
+      <div class="feature-item">🌿 Feel lighter, move easier.</div>
+      <div class="feature-item">✨ Support your natural curves and shape.</div>
+      <div class="feature-item">💖 Glow from the inside out.</div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Your Body Still Has Its Best Shape To Show</h3>
+    <p>Let us help you unlock it.</p>
+    <a href="#" class="cta-button">Start Your Body's Comeback Today</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FitOver35. All rights reserved.</p>
+    <p>Because confidence never gets old.</p>
+  </footer>
+</body>
+</html> 
