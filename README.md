@@ -10,7 +10,7 @@ A responsive landing page for FitOver35, a fitness program designed for adults o
 
 ## Live Website
 
-Visit the live website [here](https://yourusername.github.io/fitover35/)
+Visit the live website [here](https://christianencinas29.github.io/fitover35/)
 
 ## Technologies Used
 
